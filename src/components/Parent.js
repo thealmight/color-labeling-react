@@ -6,14 +6,10 @@ function Parent(props) {
     <section>
       <div className="cont" style={{ backgroundColor: props.colors }}>
         {" "}
-        my color is {props.colors}
+        my color {props.colors ? "is " + props.colors : ""}
       </div>
     </section>
   );
 }
 
 export default Parent;
-
-{
-  /* <Kid /> */
-}
