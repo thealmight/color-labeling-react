@@ -1,0 +1,10 @@
+.cont {
+  /* width: 200px; */
+  padding: 200px;
+  background-color: whitesmoke;
+  border: solid 5px black;
+  border-radius: 0.25rem;
+  margin: 10px;
+  text-align: center;
+  text-justify: center;
+}
